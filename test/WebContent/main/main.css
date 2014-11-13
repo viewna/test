@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px 0px 0px 0px;
+	background-color:#F38983;
+}
+A:link{text-decoration:none;}
+A:visited{text-decoration:none;}
+A:hover{}
+
+.search_bar{
+	padding:100px 0px 10px 2%;
+	background-color:#F38983;
+	text-align:center;
+}
+.input_text{
+	width:650px; height:55px;
+	opacity:0.5;
+
+	border:none;
+
+	font-size:45px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.option_btn{
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:3px;
+	opacity:0.5;
+}
+.enter_btn{
+	padding-top:2px;
+	margin-left:10px;
+	margin-right:10px;
+	opacity:0.5;
+}
+.content{
+	width:98%;
+	margin:2px 0px 30px 10px;
+	background-color:white;
+	float:center;
+}
+.store_box{
+	width:78%; height:250px;
+	margin:10px 0px 20px 12%;
+	padding-top:30px;
+	
+	font-family:맑은 고딕;
+	font-size:15px;
+}
+.store_box_title{
+	z-index:100;
+	opacity:1;
+}
+.stores{
+	width:95%; height:180px;
+	background-color:#fafafa;
+	border-radius: 30px 0 0 0;
+	opacity:0.7;
+}
+
+
+
+
+
+
+
+
+
