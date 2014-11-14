@@ -128,7 +128,7 @@ a {
 	background: transparent url(../images/categoryBtn.png)
 		no-repeat;
 	background-size: 32px 28px !important;
-	background-color:#F38983
+	background-color:#F38983;
 	cursor: pointer;
 	position: absolute;
 	left: 10px;

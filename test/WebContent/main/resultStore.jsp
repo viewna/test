@@ -11,40 +11,42 @@
 	</head>
 	<body>
 		<div>
-			<jsp:include page="../common/title.jsp"/>		<!-- title -->
+			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
 		<div>
-			<jsp:include page="searchBar.jsp"/>				<!-- searchBar -->
+			<jsp:include page="searchBar.jsp"/>					<!-- searchBar -->
 		</div>
 		
-		<div class="result_content">
-			<div class="result_img">						<!-- result title -->
-				<img src="./../images/about.png" height="55">
-			</div>
-		
-			<div class="result_box">						<!-- result store -->
-				<div class="result_stores">
-					<span class="recommend">
-						<a href=""><img src="./../images/ex1.jpg" height="170"></a>
-					</span>
-					<span class="result_stores_title">
-						<img src="./../images/1_HOT.png" height="55">
-					</span>
+		<div class="content">									<!-- content -->
+			<div class="result_content">
+				<div class="result_img">						<!-- result title -->
+					<img src="./../images/about.png" height="55">
 				</div>
-			</div>
-			<div class="result_box">
-				<div class="result_stores">
-					<span class="recommend">
-						<a href=""><img src="./../images/ex1.jpg" height="170"></a>
-					</span>
-					<span class="result_stores_title">
-						<img src="./../images/1_HOT.png" height="55">
-					</span>
-				</div>
-			</div>
 			
-			<div class="request_Btn">
-				<a href=""><img src="./../images/request.png" height="30"></a>
+				<div class="result_box">						<!-- result store -->
+					<div class="result_stores">
+						<span class="recommend">
+							<a href=""><img src="./../images/ex1.jpg" height="170"></a>
+						</span>
+						<span class="result_stores_title">
+							<img src="./../images/1_HOT.png" height="55">
+						</span>
+					</div>
+				</div>
+				<div class="result_box">
+					<div class="result_stores">
+						<span class="recommend">
+							<a href=""><img src="./../images/ex1.jpg" height="170"></a>
+						</span>
+						<span class="result_stores_title">
+							<img src="./../images/1_HOT.png" height="55">
+						</span>
+					</div>
+				</div>
+				
+				<div class="request_Btn">
+					<a href=""><img src="./../images/request.png" height="20"></a>
+				</div>
 			</div>
 		</div>
 		
