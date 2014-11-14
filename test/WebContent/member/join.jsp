@@ -16,13 +16,11 @@
 
 		<div class="join_content">
 			<span class="join_box">
-				<div>
-					fff iuygkjnkygtfrdersdtfcgvbhnjkl;,
-				</div>
+				
 			</span>
 			
 			<span class="join_box">
-				fff
+				
 			</span>
 		</div>
 		

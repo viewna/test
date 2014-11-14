@@ -3,8 +3,8 @@
 		<div class="search_bar">
 			<span id="search">
 				<input type="text" class="input_text" tabindex="5" style="ime-mode: active;" 
-					placeholder=" STORE/#TAG/@NICKNAME"/>
-				<!-- <input type="text" id="html4TextField" /> -->
+					placeholder=" STORE/#TAG/@NICKNAME" onfocus="this.placeholder=''" 
+					onblur="this.placeholder=' STORE/#TAG/@NICKNAME'"/>
 			</span>
 			<span class="enter_btn">
 				<a href="#">

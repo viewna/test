@@ -8,7 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="../common/common.css"/>		<!-- footer, title css -->
 		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>					<!-- main css -->
-
 	</head>
 	<body>
 		<div>
@@ -17,52 +16,35 @@
 		<div>
 			<jsp:include page="searchBar.jsp"/>				<!-- searchBar -->
 		</div>
-		<div class="main_content">
-			<div class="store_box">
-				<div class="store_box_title">
-					<img src="./../images/1_HOT.png" height="55">
-				</div>
-				<div class="stores">
+		
+		<div class="result_content">
+			<div class="result_img">						<!-- result title -->
+				<img src="./../images/about.png" height="55">
+			</div>
+		
+			<div class="result_box">						<!-- result store -->
+				<div class="result_stores">
 					<span class="recommend">
 						<a href=""><img src="./../images/ex1.jpg" height="170"></a>
 					</span>
-					<span class="recommend">
-						<a href=""><img src="./../images/ex2.jpg" height="170"></a>
-					</span>
-					<span class="recommend">
-						<a href=""><img src="./../images/ex3.jpg" height="170"></a>
-					</span>
-					<span class="recommend">
-						<a href=""><img src="./../images/ex4.jpg" height="170"></a>
+					<span class="result_stores_title">
+						<img src="./../images/1_HOT.png" height="55">
 					</span>
 				</div>
 			</div>
-		
-			<div class="store_box">
-				<div class="store_box_title">
-					<img src="./../images/2_REGION.png" height="55">
-				</div>
-				<div class="stores">
-					접속 지역 기준 스토어 추천
+			<div class="result_box">
+				<div class="result_stores">
+					<span class="recommend">
+						<a href=""><img src="./../images/ex1.jpg" height="170"></a>
+					</span>
+					<span class="result_stores_title">
+						<img src="./../images/1_HOT.png" height="55">
+					</span>
 				</div>
 			</div>
 			
-			<div class="store_box">
-				<div class="store_box_title">
-					<img src="./../images/3_LIKES.png" height="55">
-				</div>
-				<div class="stores">
-					추천수 기준 리뷰 추천
-				</div>
-			</div>
-			
-			<div class="store_box">
-				<div class="store_box_title">
-					<img src="./../images/4_NEW.png" height="55">
-				</div>
-				<div class="stores">
-					새로 오픈된 스토어 추천
-				</div>
+			<div class="request_Btn">
+				<a href=""><img src="./../images/request.png" height="30"></a>
 			</div>
 		</div>
 		
