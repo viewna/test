@@ -12,6 +12,12 @@
 						<span id="slideNav" class="panel"> 
 							<a href="javascript:jQuery.pageslide.close()" class="closeBtn"></a> 
 							<span id="mainNav"> 
+								<span class="title_btn2">		<!-- 프로필 버튼 -->
+									<a href="#">
+										<img src="./../images/profile.png" height="60">
+									</a>
+								</span>
+							
 								<span class="menu-menu-1-container">
 									<ul id="menu-menu-1" class="">
 										<li id=""><a href="">Food</a></li>
@@ -55,18 +61,12 @@
 				<script type="text/javascript" src="../jQueryWeb.js"></script> 
 				<script type="text/javascript" src="../jQueryWeb2.js"></script>
 				</span>
-				
-				<span class="title_btn2">		<!-- 프로필 버튼 -->
-					<a href="#">
-						<img src="./../images/profile.png" height="40">
-					</a>
-				</span>
 			</span>
 			
 			<!-- 센터 로고 -->
 			<span class="title_center">
 				<a href="#/" class="title_logo">
-					<img src="./../images/title.png" height="40">
+					<img src="./../images/title.png" height="43">
 				</a>
 			</span>
 			

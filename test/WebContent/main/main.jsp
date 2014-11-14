@@ -5,10 +5,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Insert title here</title>
-		<link rel="stylesheet" type="text/css" href="./../common/common.css"/>
-		<link rel="stylesheet" type="text/css" href="main.css"/>
-		<link rel="stylesheet" type="text/css" href="../common/category.css" />
-		
+		<link rel="stylesheet" type="text/css" href="../common/common.css"/>		<!-- footer, title css -->
+		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
+		<link rel="stylesheet" type="text/css" href="main.css"/>					<!-- main css -->
 	</head>
 	<body>
 		<div>
@@ -17,13 +16,24 @@
 		<div>
 			<jsp:include page="searchBar.jsp"/>				<!-- searchBar -->
 		</div>
-		<div class="content">
+		<div class="main_content">
 			<div class="store_box">
 				<div class="store_box_title">
 					<img src="./../images/1_HOT.png" height="55">
 				</div>
 				<div class="stores">
-					핫플레이스 기준 스토어 추천
+					<span class="recommend">
+						<a href=""><img src="./../images/ex1.jpg" height="170"></a>
+					</span>
+					<span class="recommend">
+						<a href=""><img src="./../images/ex2.jpg" height="170"></a>
+					</span>
+					<span class="recommend">
+						<a href=""><img src="./../images/ex3.jpg" height="170"></a>
+					</span>
+					<span class="recommend">
+						<a href=""><img src="./../images/ex4.jpg" height="170"></a>
+					</span>
 				</div>
 			</div>
 		

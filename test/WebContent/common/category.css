@@ -6,20 +6,19 @@ ol, ul {
 
 body {
 	font-size: 100%;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "맑은 고딕", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: auto;
 	height: auto;
 	margin: 0;
 	color: #848484;
 	background-color: #fff;
-	font-weight: normal
+	font-weight: normal;
 }
 
 ul {
 	list-style: none;
-	margin: 0;
-	margin-top:80%;
-	padding: 0
+	margin-top:95%;
+	padding:25% 0px 0px 0px; 
 }
 
 li {
@@ -27,10 +26,8 @@ li {
 	padding: 0
 }
 
-
 /*카테고리에 마우스 올리면 색 변하는부분  */
 a {
-	
 	text-decoration: none;
 	outline: none
 }
@@ -91,7 +88,7 @@ a:hover {
 #slideNav #mainNav
 li {
 	display: block !important;
-	margin: 0 20px 20px 20px
+	margin: 0 20px 15px 20px
 }
 
 #slideNav #mainNav ul
@@ -144,7 +141,7 @@ a {
 	transition: .5s
 }
 
-.closeBtn {
+/* .closeBtn {
 	width: 20px;
 	height: 20px;
 	background: transparent url(../img/close.jpg)
@@ -161,4 +158,4 @@ a {
 	-webkit-transition: .5s;
 	transition: .5s;
 	opacity: .5
-}
+} */

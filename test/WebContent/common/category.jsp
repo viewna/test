@@ -13,7 +13,7 @@
 <body>
 	<div id="pageslide" style="right: auto; left: -300; display: none;">
 		<div id="slideNav" class="panel">
-			<a href="javascript:jQuery.pageslide.close()" class="closeBtn"></a>
+			<!-- <a href="javascript:jQuery.pageslide.close()" class="closeBtn"></a> -->
 			<div id="mainNav">
 				<div class="menu-menu-1-container">
 					<ul id="menu-menu-1" class="">
