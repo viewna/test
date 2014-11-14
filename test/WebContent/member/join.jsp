@@ -17,7 +17,7 @@
 		<div class="join_content">
 			<span class="join_box">
 				<div>
-					fff
+					fff iuygkjnkygtfrdersdtfcgvbhnjkl;,
 				</div>
 			</span>
 			
