@@ -65,16 +65,16 @@
 
 						<!-- <input type="text" class="input_text" tabindex="5" style="ime-mode: active;"/> -->
 
-						<div class="file_input">* 영업시간
+						<div class="file_input">* 영업시간!!!
 							<input type="text" name="time" tabindex="5"></div>
-						<div class="file_input">* 오픈날짜
+						<div class="file_input">* 오픈날짜!!!
 							<input type="text" name="day"></div>
-						<div class="file_input"> 홈페이지
+						<div class="file_input"> 홈페이지!!!
 							<input type="text" name="page"></div>
-						<div class="file_input">* 전화번호
+						<div class="file_input">* 전화번호!!!
 							<input type="text" name="phone"></div>
 						
-						<div class="file_input">가게 상황	
+						<div class="file_input">가게 상황!!!!!!!!!
 							<select name="conditions">
 								<option></option>
 								<option>open</option>
