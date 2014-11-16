@@ -58,8 +58,7 @@
 					</span>
 				</span> 
 				
-				<script type="text/javascript" src="../jQueryWeb.js"></script> 
-				<script type="text/javascript" src="../jQueryWeb2.js"></script>
+
 				</span>
 			</span>
 			
@@ -80,5 +79,8 @@
 				</a>
 			</span>
 		</div>
+		
+		<script type="text/javascript" src="../jQueryWeb.js"></script> 
+		<script type="text/javascript" src="../jQueryWeb2.js"></script>
 	</body>
 </html>

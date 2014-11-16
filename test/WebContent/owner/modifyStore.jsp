@@ -74,13 +74,76 @@
 						<div class="file_input">* 전화번호!!!
 							<input type="text" name="phone"></div>
 						
-						<div class="file_input">가게 상황!!!!!!!!!
+						<div class="file_input">가게 상황!!!
 							<select name="conditions">
 								<option></option>
 								<option>open</option>
 								<option>close</option>
 							</select>
 						</div>
+						
+						store info
+						<div class="store_info">
+							<div class="firstline_icon">
+								<span class="info_icon">
+									<img src="./../images_store_info/card.png" width="60">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/delivery.png" width="60">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/drive_through.png" width="50">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/group.png" width="60">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/kids.png" width="60">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/parking.png" width="50">
+								</span>
+							</div>
+							<div class="firstline_name">
+								<input type="checkbox" size="30" name="info">카드 결제
+								<input type="checkbox" size="30" name="info">배달
+								<input type="checkbox" size="30" name="info">drive through
+								<input type="checkbox" size="30" name="info">단체 예약
+								<input type="checkbox" size="30" name="info">어린이
+								<input type="checkbox" size="30" name="info">주차
+								<input type="hidden" name="infomation">
+							</div>
+							<div class="secondline_icon">
+								<span class="info_icon">
+									<img src="./../images_store_info/reservation.png" width="45">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/seating.png" width="60">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/takeout.png" width="50">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/toilet.png" width="50">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/tv.png" width="50">
+								</span>
+								<span class="info_icon">
+									<img src="./../images_store_info/wifi.png" width="50">
+								</span>
+							</div>
+							<div class="secondline_name">
+								<input type="checkbox" size="30" name="info">카드 결제
+								<input type="checkbox" size="30" name="info">배달
+								<input type="checkbox" size="30" name="info">drive through
+								<input type="checkbox" size="30" name="info">단체 예약
+								<input type="checkbox" size="30" name="info">어린이
+								<input type="checkbox" size="30" name="info">주차
+								<input type="hidden" name="infomation">
+							</div>
+							
+						</div> 
 						<div class="file_input">
 							사진
 							<input type="text" readonly="readonly" title="File Route" id="file_route">
@@ -94,14 +157,11 @@
 							<img alt="" src="">
 							<img alt="" src="">
 						</div>
-						<div class="store_info">
-							<input type="checkbox" size="30" name="info">주차
-							<input type="checkbox" size="30" name="info">wi-fi
-							<input type="hidden" name="infomation">
-						</div> 
 					</div>
-					<div style="text-align: center">
-						<input type="submit" value="완료" size="30">
+					
+					<div class="Btn">
+						<input type="submit" value="수정 완료">
+						<input type="button" value="취소">
 					</div>
 				</form>
 			</div>
