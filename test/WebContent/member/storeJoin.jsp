@@ -7,11 +7,10 @@
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="../common/common.css"/>		<!-- footer, title css -->
 		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
-		<link rel="stylesheet" type="text/css" href="../main/main.css"/>			<!-- main css -->
 	
-		<script type="text/javascript" src="../jquery/jquery.js"></script>
-		<script type="text/javascript" src="../jquery/jquery.validate.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript" src="../jquery.validate.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
 		
 		<script type="text/javascript">
 			 $(document).ready(function(){

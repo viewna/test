@@ -28,7 +28,7 @@ A:hover{text-decoration:none;}
 }
 
 .title_btn2{				/*프로필사진*/
-	margin:25% 0px 0px 15%;
+	margin:25% 0px 0px 17%;
 	padding-top:0px;
 	position:absolute;
 } 
@@ -80,6 +80,10 @@ A:hover{text-decoration:none;}
 	padding-top:30px;
  	text-align:center;
 }
+.pass_form{
+	padding-top:50px;
+ 	text-align:center;
+}
 .login_input{
 	width:350px; height:60px;
 	margin:0px 0px 20px 0px;
@@ -100,4 +104,18 @@ A:hover{text-decoration:none;}
 }
 .bottom_Btn2{
 	margin-top:40px;
+}
+
+.pass_input{
+	width:250px; height:60px;
+	margin:0px 0px 20px 0px;
+
+	border:none;
+	border-bottom:2px solid #F38983;
+	background-color:#F4F4F4;
+
+	font-size:30px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-align:center;
 }

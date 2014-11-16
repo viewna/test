@@ -14,7 +14,7 @@
 							<span id="mainNav"> 
 								<span class="title_btn2">		<!-- 프로필 버튼 -->
 									<a href="#">
-										<img src="./../images/profile.png" height="60">
+										<img src="./../images/profile.png" height="90">
 									</a>
 								</span>
 							
