@@ -1,5 +1,8 @@
 @CHARSET "UTF-8";
-
+body{
+	margin:0px 0px 0px 0px;
+	background-color:#F38983;
+}
 A:link{text-decoration:none;}
 A:visited{text-decoration:none;}
 A:hover{text-decoration:none;}
@@ -53,3 +56,48 @@ A:hover{text-decoration:none;}
 	text-align:center;
 }
 
+
+.content_login, .content_findPass{
+	padding-top:50px;
+	height:520px;
+}
+.login_box, .findPass_box{
+	width:600px; height:60%;
+	margin:9% 0px 0px 25%;
+	padding:0px 0px 0px 0px;
+	background-color:#F4F4F4;
+}
+.result_title{
+	background-color:white;
+	padding-bottom:5px;
+}
+.result_title2{
+	text-align:right;
+	background-color:white;
+	padding-bottom:5px;
+}
+.login_form, .find_form{
+	padding-top:30px;
+ 	text-align:center;
+}
+.login_input{
+	width:350px; height:60px;
+	margin:0px 0px 20px 0px;
+
+	border:none;
+	border-bottom:2px solid #F38983;
+	background-color:#F4F4F4;
+
+	font-size:30px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+}
+.login_Btn{
+	width:80px; height:500px;
+}
+.bottom_Btn, .bottom_Btn2{
+	text-align:center;
+}
+.bottom_Btn2{
+	margin-top:40px;
+}

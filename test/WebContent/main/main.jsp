@@ -7,7 +7,7 @@
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="../common/common.css"/>		<!-- footer, title css -->
 		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
-		<link rel="stylesheet" type="text/css" href="main.css"/>					<!-- main css -->
+		<link rel="stylesheet" type="text/css" href="../main/main.css"/>			<!-- main css -->
 		
 		<link rel="stylesheet" type="text/css" href="demo.css" />
 		<link rel="stylesheet" type="text/css" href="elastislide.css" />
@@ -49,7 +49,10 @@
 				<script type="text/javascript">
 					$('#carousel').elastislide();
 				</script>
-			
+				
+				<script type="text/javascript" src="../jQueryWeb.js"></script> 
+				<script type="text/javascript" src="../jQueryWeb2.js"></script>
+				
 				<div class="store_box">
 					<div class="store_box_title">
 						<img src="./../images/2_REGION.png" height="55">

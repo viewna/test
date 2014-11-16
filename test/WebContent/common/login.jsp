@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<div>
-			<jsp:include page="../common/title.jsp"/>								<!-- title -->
+			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
 		
 		<div class="content">
@@ -19,19 +19,29 @@
 				<div class="login_box">
 					<form onsubmit="return checkForm()">
 						<div class="result_title">				<!-- login title -->
-							<img src="./../images/join_title.png" height="55">
+							<img src="./../images/logintitle.png" height="55">
 						</div>
-						<div class="Btn" style="text-align:center; padding-top:25px;">
-							<span class="Btn_member">
-								<a href="" onclick="">
-									<img src="./../images/member.png" height="200">
-								</a>
-							</span>
-							<span class="Btn_buss">
-								<a href="" onclick="">
-									<img src="./../images/buss.png" height="200">
-								</a>
-							</span>
+						<div class="login_form">				<!-- login form -->
+							<div>
+								<input type="text" class="login_input" tabindex="5" style="ime-mode: active;"
+								placeholder=" ID@EMAIL" onfocus="this.placeholder=''" onblur="this.placeholder='ID@EMAIL'"/>
+							</div>
+							
+							<div>
+								<input type="password" class="login_input" tabindex="5" style="ime-mode: active;"
+								placeholder=" PASSWORD" onfocus="this.placeholder=''" onblur="this.placeholder='PASSWORD'"/>
+							</div>
+						</div>
+						<div class="bottom_Btn">
+							<a href="" onclick="">
+								<img src="./../images/LOGINbtn.png" height="30">
+							</a>
+							<a href="" onclick="">
+								<img src="./../images/JOIN.png" height="30">
+							</a>
+							<a href="" onclick="">
+								<img src="./../images/FIND.png" height="30">
+							</a>
 						</div>
 					</form>
 				</div>

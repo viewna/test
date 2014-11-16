@@ -58,8 +58,7 @@
 					</span>
 				</span> 
 				
-				<script type="text/javascript" src="../jQueryWeb.js"></script> 
-				<script type="text/javascript" src="../jQueryWeb2.js"></script>
+
 				</span>
 			</span>
 			

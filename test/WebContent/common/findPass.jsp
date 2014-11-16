@@ -11,27 +11,30 @@
 	</head>
 	<body>
 		<div>
-			<jsp:include page="../common/title.jsp"/>								<!-- title -->
+			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
 		
 		<div class="content">
-			<div class="content_login">
-				<div class="login_box">
+			<div class="content_findPass">
+				<div class="findPass_box">
 					<form onsubmit="return checkForm()">
 						<div class="result_title">				<!-- login title -->
-							<img src="./../images/join_title.png" height="55">
+							<img src="./../images/findPass.png" height="55">
 						</div>
-						<div class="Btn" style="text-align:center; padding-top:25px;">
-							<span class="Btn_member">
-								<a href="" onclick="">
-									<img src="./../images/member.png" height="200">
-								</a>
-							</span>
-							<span class="Btn_buss">
-								<a href="" onclick="">
-									<img src="./../images/buss.png" height="200">
-								</a>
-							</span>
+						<div style="text-align:center;">
+							<br/>등록하신 이메일 주소를 입력하시면 해당 메일 주소로 key를 보내드립니다.
+						</div>
+						<div class="find_form">				<!-- login form -->
+							<input type="text" class="login_input" tabindex="5" style="ime-mode: active;"
+							placeholder=" ID@EMAIL" onfocus="this.placeholder=''" onblur="this.placeholder='ID@EMAIL'"/>
+						</div>
+						<div class="bottom_Btn2">
+							<a href="" onclick="">
+								<img src="./../images/send.png" height="30">
+							</a>
+							<a href="" onclick="">
+								<img src="./../images/LOGINbtn.png" height="30">
+							</a>
 						</div>
 					</form>
 				</div>
