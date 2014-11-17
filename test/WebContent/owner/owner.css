@@ -1,7 +1,12 @@
 @CHARSET "UTF-8";
 body{
 	margin:0px 0px 0px 0px;
+	background-color:#F38983;
 }
+A:link{text-decoration:none;}
+A:visited{text-decoration:none;}
+A:hover{text-decoration:none;}
+
 .content_modifyStore{
 	padding-top:50px;
 }
@@ -20,11 +25,11 @@ body{
 .firstline_name, .secondline_name{
 	margin-bottom:20px;
 }
-.result_title{
+/* .result_title{
 	align:left;
 	margin:0px 0px 20px 200px;
 	opacity:0.9;
-}
+} */
 .input{
 
 }
@@ -81,4 +86,35 @@ body{
 	margin-top:30px;
 	text-align:center;
 	/* background-color:teal; color:white; */
+}
+
+
+<!-- storeJoin -->
+p{
+	margin-left: 40px;
+}
+.content_storeJoin{
+	height:520px;
+	padding-top:50px;
+}
+.storeJoin_box{
+	width:600px; height:70%;
+	margin:6% 0px 0px 25%;
+	padding:0px 0px 0px 0px;
+	background-color:#F4F4F4;
+}
+.join_input{
+	width:200px; height:25px;
+	margin:0px 0px 0px 0px;
+
+	border:none;
+	border-bottom:2px solid #F38983;
+	background-color:#F4F4F4;
+
+	font-size:18px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+}
+.bottom_Btn{
+	text-align:center;
 }

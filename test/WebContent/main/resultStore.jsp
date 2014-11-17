@@ -21,6 +21,9 @@
 			<div class="result_content">
 				<div class="result_img">						<!-- result title -->
 					<img src="./../images/about.png" height="55">
+					<span class="result_value">					<!-- 검색해서 넘어온 가게 이름 -->
+						7Train
+					</span>
 				</div>
 			
 				<div class="result_box">						<!-- result store -->
