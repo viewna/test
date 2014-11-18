@@ -72,6 +72,8 @@
 							<img src="./../images_store_info/group.png" width="55" style="margin-right:10px;">
 							<img src="./../images_store_info/toilet.png" width="45" style="margin-right:10px;">
 							<img src="./../images_store_info/wifi.png" width="50" style="margin-right:10px;">
+							<img src="./../images_store_info/parking.png" width="55" style="margin-right:10px;">
+							<img src="./../images_store_info/reservation.png" width="45" style="margin-right:10px;">
 						</li>
 					</ul>
 				</div>
@@ -115,11 +117,9 @@
 					</div>
 					
 					<!-- 작성 버튼을 누르면 나타나는 작성 창 -->
-					<%-- 
 					<div class="review_write">
 						<jsp:include page="SmartEditor2.html" />
 					</div>
-					 --%>
 					 
 					 
 					<div class="review_board">							<!-- 리뷰 보드 -->
