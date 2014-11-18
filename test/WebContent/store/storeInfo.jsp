@@ -25,9 +25,10 @@
 					</span>
 					<span class="status_position">
 						<span class="status"> <!-- store의 status 값을 받아와서 open / close 중 하나를 띄움 -->
-							<img src="./../images/open.png" height="30" /> <%-- 
+							<img src="./../images/open.png" height="30" /> 
+							<%-- 
 								<img src="./../images/close.png" height="30"/>
-							 --%>
+							--%>
 						</span>
 					</span>
 					<span class="category_position">
@@ -76,7 +77,7 @@
 				</div>
 	
 				<div class="img_collection">					<!-- 모아보기 -->
-					<div style="text-align:right; background-color:white;">
+					<div style="text-align:left; background-color:white;">
 						<img src="./../images/review_pic.png" height="50">
 					</div>
 					<div class="reviewImg_box">					<!-- 최근 리뷰의 사진 순으로 7개만 모아서 보여줌 -->
@@ -104,12 +105,12 @@
 					</div>
 				</div>
 				
-				<div class="write_box"> 						<!-- 리뷰창 -->
-					<div style="text-align:right; background-color:white;">
+				<div class="write_box"> 						<!-- 리뷰쓰기 창 -->
+					<div style="text-align:left; background-color:white;">
 						<img src="./../images/review_title.png" height="50">
 					</div>
 					
-					<div class="write_btn">
+					<div class="write_btn" style="text-align:right;">
 						<a href=""><img src="./../images/write.png" height="30"></a>
 					</div>
 					
@@ -119,21 +120,79 @@
 						<jsp:include page="SmartEditor2.html" />
 					</div>
 					 --%>
-					<div class="review_board">
+					 
+					 
+					<div class="review_board">							<!-- 리뷰 보드 -->
+						
+						<!-- 첫번째 댓글 예시 -->
+						<div class="review">							<!-- DB에서 리뷰 받아와서 뿌려줌 -->
+							<span class="reviewer_profile">
+								<span class="review_content">			<!-- 리뷰어 내용 -->
+									<span class="review_starrate">
+										<img src="./../images/starrate_ex.png" height="25">
+									</span>
+									<span class="updown_position">		<!-- 리뷰 찬반 -->
+										<a href=""><img src="./../images/up.png" height="30"></a>
+											29
+										<a href=""><img src="./../images/down.png" height="30"></a>
+											3
+									</span>
+									<p class="scroll_tag">여기 존맛임 bbb<br/> 개꿀 ㅎㅎ<br/>
+									z<br/>zzz<br/>zzzz<br/>zz<br/>z</p>
+									<span>
+										<span class="review_photo_position">			<!-- 리뷰에 첨부된 사진들 -->
+											<a href=""><img src="./../images/pic1.png" height="40"></a>
+											<a href=""><img src="./../images/pic2.png" height="40"></a>
+											<a href=""><img src="./../images/pic3.png" height="40"></a>
+										</span>
+										
+									</span>
+									<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
+										<span class="btn_position">
+											<a href=""><img src="./../images/update.png" height="30"></a>
+										</span>
+										<%-- 
+										<a href=""><img src="./../images/report.png" height="30"></a>
+										--%>
+									</span>
+								</span>
+								<span class="profile">			<!-- 리뷰어 프로필사진 -->
+									<img src="./../images/profile.png" height="100">
+								</span>
+								<span class="reviewer_NICK">	<!-- 리뷰어 닉네임 -->
+									예쁜나영이
+								</span>
+							</span>
+						</div>
+						
+						<!-- 두번째 댓글 예시 -->
 						<div class="review">					<!-- DB에서 리뷰 받아와서 뿌려줌 -->
 							<span class="reviewer_profile">
 								<span class="review_content">	<!-- 리뷰어 내용 -->
 									<span class="review_starrate">
 										<img src="./../images/starrate_ex.png" height="25">
 									</span>
-									<p style="margin-top:5px;">여기 존맛임 bbb 개꿀 ㅎㅎ</p>
+									<span class="updown_position">		<!-- 리뷰 찬반 -->
+										<a href=""><img src="./../images/up.png" height="30"></a>
+											5
+										<a href=""><img src="./../images/down.png" height="30"></a>
+											5
+									</span>
+									<p class="scroll_tag">여기 안존맛인데 뭔솔;;</p>
+									<span>
+										<span class="review_photo_position">			<!-- 리뷰에 첨부된 사진들 -->
+											<a href=""><img src="./../images/pic1.png" height="40"></a>
+											<a href=""><img src="./../images/pic2.png" height="40"></a>
+											<a href=""><img src="./../images/pic3.png" height="40"></a>
+										</span>
+									</span>
 									<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
 										<span class="btn_position">
+										<!-- 
 											<a href=""><img src="./../images/update.png" height="30"></a>
+										 -->	
+											<a href=""><img src="./../images/report.png" height="30"></a>
 										</span>
-										<%-- 
-										<a href=""><img src="./../images/report.png" height="170"></a>
-										--%>
 									</span>
 								</span>
 								<span class="profile">			<!-- 리뷰어 프로필사진 -->
