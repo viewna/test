@@ -20,26 +20,43 @@
 			<div class="storeInfo_content">
 				<div class="result_img"> 						<!-- result title -->
 					<img src="./../images/about.png" height="55"/>
-					<span>
+					<span class="result_value">					<!-- 검색해서 넘어온 가게 이름 -->
 						7Train
 					</span>
 				</div>
 				<div class="first_box">
 					<ul class="storeInfo_ul">
-						<li class="storeInfo_txt">
-							<span class="c"> <a
-								href="http://tvcast.naver.com/dollhouse"
-								onclick="return clickcr(this,'tcc_tvc.origin','7803E801_0000000121E3','', event);">한중미
-									동시 공개!</a></span> <span class="e"><a
-								href="http://tvcast.naver.com/v/235851"
-								onclick="return clickcr(this,'tcc_tvc.special1','7803E801_0000000121E3','', event);">동화같은
-									집에 수양딸로 들어간 그녀에게 들려오는 한 소녀의 울음소리 "여기 오면 안돼"</a></span>
+						<li class="storeInfo_box">
+							<div class="starrate">				<!-- 별점표시 -->
+								<img src="./../images/rate_title.png" height="50">
+								<img src="./../images/starrate_ex.png" height="50" style="margin-left:30px;">
+							</div>
+							<div class="txt">					<!-- 스토어 정보 -->
+								<!-- Category -->
+								음식점>술집<br/>
+								<!-- service Time -->
+								영업시간 : 6:00pm~2:00am<br/>
+								<!-- Address -->
+								위      치 : 서울 강남구 역삼동<br/>
+								
+								<!-- open Date -->
+								<br/>
+								<!-- homepage Address -->
+								www.7train.kr<br/>
+								<!-- phone Number -->
+								02-553-7850<br/>
+								<!-- status -->
+								OPEN<br/>
+							</div>
+							<div class="map">					<!-- 스토어 위치 -->
+								MAP
+							</div>
 						</li>
 						
 						<li class="store_pic"><img src="./../images/ex1.jpg"
 							height="300"></li>
 	
-						<li class="store_icon">
+						<li class="store_icon">					<!-- 스토어 info -->
 							<img src="./../images_store_info/card.png" width="55" style="margin-right:10px;">
 							<img src="./../images_store_info/group.png" width="55" style="margin-right:10px;">
 							<img src="./../images_store_info/toilet.png" width="45" style="margin-right:10px;">
@@ -49,13 +66,13 @@
 				</div>
 	
 				<div class="img_collection">					<!-- 모아보기 -->
-	
+						
 				</div>
 				
 				<div class="write_box"> 						<!-- 리뷰창 -->
-					<!-- <div style="text-align:right; background-color:white;">
+					<div style="text-align:right; background-color:white;">
 						<img src="./../images/review_title.png" height="55">
-					</div> -->
+					</div>
 					<%-- <jsp:include page="SmartEditor2.html" /> 	 --%>
 				</div>
 			</div>

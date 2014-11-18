@@ -25,15 +25,48 @@ A:hover{text-decoration:none;}
 	margin-top: 20px;
 	padding-top:0px;
 }
-.storeInfo_txt{
-	height:400px; width:500px;
+.storeInfo_box{
+	height:396px; width:496px;
 	margin:0px 40px 0px 20px;
 	padding:20px 20px 20px 20px;
 	float:right;
-	background-color:#DCDCDF;
+	background-color: white;
+	border:solid 2px #F38983;
+}
+.starrate{
+	margin:0px 0px 20px 0px;
+	text-align:center;
+}
+.txt{
+	margin:0px 0px 20px 0px;
+	padding-left:10px;
+	color:black;
+	font-size:15px;
+	font-family:맑은 고딕;
+	text-align:center;
+}
+.map{
+	height:180px; width:500px;
+	background-color: #DCDCDF;
+	
+	padding:20px 0px 0px 0px;
+	font-size:50px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	position:absolute; left:530px; top:460px;
 }
 .result_img{
 	margin:0px 0px 20px 0px;
+}
+.result_value{
+	padding-left:5px;
+	
+	font-size:70px;
+	font-weight:bold;
+	font-family:맑은 고딕;
+	color:#DD5050;
 }
 .store_icon {
 	height: 120px;
