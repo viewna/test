@@ -9,6 +9,7 @@ A:hover{text-decoration:none;}
 
 .content_modifyStore{
 	padding-top:50px;
+	padding-bottom:30px;
 }
 .store_info{
 	height: 190px; 	width: 520px;
@@ -25,11 +26,11 @@ A:hover{text-decoration:none;}
 .firstline_name, .secondline_name{
 	margin-bottom:20px;
 }
-/* .result_title{
-	align:left;
-	margin:0px 0px 20px 200px;
-	opacity:0.9;
-} */
+.result_title{
+	margin-bottom:30px;
+	text-align:center;
+	
+}
 .input{
 
 }
