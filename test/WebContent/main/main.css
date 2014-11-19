@@ -105,52 +105,71 @@ A:hover{}
 
 
 <!-- hotPlace -->
-.HP_content{
+.RE_content{
 	padding: 130px 10% 30px 15%;
 	height:auto;
 	width:74%;
 }
-.HP_box{
-	margin: 0px 0px 20px 14%;
-	padding-top: 30px;
+.RE_box{
+	height: 630px;
+	margin: 0px 0px 20px 12%;
+	padding-top: 40px;
 	font-family: 맑은 고딕;
 	font-size: 15px;
 }
-.HP_title{
-	text-align:center;
-	height:110px;
+.RE_title{
+	width: 930px; 	height: 50px;
+	margin-bottom: 10px;
+	padding : 10px 0px 0px 0px;
+	text-align: center;
+	border:solid 2px #DD5050;
+	
+	font-size:40px;
+	font-family:맑은 고딕;
+	color: #DD5050;
+	font-weight:bold;
 }
-.HP_thumbnails{
+.RE_thumbnails{
 	width:950px;	height:600px;
-	background-color:#DCDCDF;
 	padding:0px 0px 0px 0px;
 }
-.HP_stores{
+.RE_stores{
 	width: 300px; 	height: 500px;
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
+	
 	text-align: center;
+	border: solid 2px #F38983;
 }
 .HP_store_name{
-	font-size:25px;
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 맑은 고딕;
+	color: white;
+	background-color: #F38983;
+}
+.RE_store_address{
+	float:center;
+	font-size:14px;
+}
+.RE_store_pic{
+	margin: 10px 0px 10px 0px;
+}
+.RE_store_starrate{
+}
+.RE_store_reviewnum{
+	margin:10px 10px 5px 0px;
+	float:left;
+}
+.reviewnum_title{
+}
+.review_num{
+	margin-left: 10px;
+	font-size:40px;
 	font-weight:bold;
-	font-family:맑은 고딕;
+	color:#7C7475;
 }
-.HP_store_address{
-	float:right;
-	font-size:16px;
-}
-.HP_store_starrate{
-	
-}
-
-
-
-
-
-
-
-
 
 
 

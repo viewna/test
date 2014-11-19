@@ -22,26 +22,80 @@
 		<script type="text/javascript" src="../jQueryWeb2.js"></script>
 		
 		<div class="content">									<!-- content -->
-			<div class="HP_content">
-				<div class="HP_box">
-					<div class="HP_title">
-						핫플 타이틀
+			<div class="RE_content">
+				<div class="RE_box">
+					<div class="RE_title">
+						<img src="./../images/hotnow.png" height="40px;"/>
+						<!-- H O T  N O W -->
 					</div>
-					<div class="HP_thumbnails">
-						<span class="HP_stores">				<!-- hotplace 추천 11111111 -->
-							<span class="HP_store_name" style="text-align:center;">
+					<ul style="none;" class="RE_thumbnails">
+						<li class="RE_stores">					<!-- hotplace 추천 11111111 -->
+							<div class="HP_store_name" style="text-align:center;">
 								7Train
-							</span>
-							<a href="#"><img src="./../images/ex1.jpg" width="300px;"/></a>
-							<span class="HP_store_address">
+							</div>
+							<span class="RE_store_address">
 								<span>서울 강남구 역삼동</span>		<!-- 주소값 -->
 							</span>
-							<span class="HP_store_starrate">	<!-- 평점값 -->
-								d
+							<div class="RE_store_pic">
+								<a href="#"><img src="./../images/ex1.jpg" width="300px;"/></a>
+							</div>
+							<div class="RE_store_starrate">		<!-- 평점값 -->
+								<img src="./../images/starrate_ex.png" width="200px;">
+							</div>
+							<div class="RE_store_reviewnum">
+								<span class="reviewnum_title">
+									<img src="./../images/reviewnum_title.png" height="40px;">
+								</span>
+								<span class="review_num">		<!-- 리뷰 갯수 -->
+									48건
+								</span>
+							</div>
+						</li>
+						<li class="RE_stores">					<!-- hotplace 추천 11111111 -->
+							<div class="HP_store_name" style="text-align:center;">
+								코카콜라 맛있어
+							</div>
+							<span class="RE_store_address">
+								<span>KOSTA 나영이자리</span>		<!-- 주소값 -->
 							</span>
-						</span>
-						
-					</div>
+							<div class="RE_store_pic">
+								<a href="#"><img src="./../images/ex2.jpg" width="300px;"/></a>
+							</div>
+							<div class="RE_store_starrate">		<!-- 평점값 -->
+								<img src="./../images/starrate_ex.png" width="200px;">
+							</div>
+							<div class="RE_store_reviewnum">
+								<span class="reviewnum_title">
+									<img src="./../images/reviewnum_title.png" height="40px;">
+								</span>
+								<span class="review_num">		<!-- 리뷰 갯수 -->
+									16건
+								</span>
+							</div>
+						</li>
+						<li class="RE_stores">					<!-- hotplace 추천 11111111 -->
+							<div class="HP_store_name" style="text-align:center;">
+								호식이 두마리 치킨
+							</div>
+							<span class="RE_store_address">
+								<span>나영이 포항집</span>		<!-- 주소값 -->
+							</span>
+							<div class="RE_store_pic">
+								<a href="#"><img src="./../images/ex3.jpg" width="300px;"/></a>
+							</div>
+							<div class="RE_store_starrate">		<!-- 평점값 -->
+								<img src="./../images/starrate_ex.png" width="200px;">
+							</div>
+							<div class="RE_store_reviewnum">
+								<span class="reviewnum_title">
+									<img src="./../images/reviewnum_title.png" height="40px;">
+								</span>
+								<span class="review_num">		<!-- 리뷰 갯수 -->
+									195건
+								</span>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
