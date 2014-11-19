@@ -13,9 +13,9 @@ A:visited{text-decoration:none;}
 A:hover{text-decoration:none;}
 
 .storeInfo_content, .picCollection_content{
-	padding:130px 150px 30px 180px;
+	padding: 130px 10% 30px 15%;
 	height:auto;
-	width:900px;
+	width:74%;
 }
 .store_pic{
 	height:300px; width:300px;
@@ -40,6 +40,7 @@ A:hover{text-decoration:none;}
 	position:absolute;
 	margin:0px 0px 20px 0px;
 	text-align:center;
+	min-width: 455px;
 }
 .rate_title{
 }
@@ -68,11 +69,11 @@ A:hover{text-decoration:none;}
 }
 .status_position{
 	position:absolute;
-	margin-top:45px;
+	margin-top:4%;
 }
 .category_position{
 	position:absolute;
-	margin-top:90px;
+	margin-top:7%;
 }
 .result_value{
 	padding-left:5px;
@@ -167,8 +168,10 @@ A:hover{text-decoration:none;}
 	width:758px;
 }
 .review_photo_position{
-	position:absolute;
+	width: 250px;
 	margin:10px 0px 0px 0px;
+	min-width: 260px;
+	position:absolute;
 }
 .updown_position{
 	position:absolute;
@@ -177,7 +180,7 @@ A:hover{text-decoration:none;}
 }
 .btn_position{
 	position:absolute;
-	margin:1.8% 0px 0px 51%;
+	margin:20px 0px 0px 650px;
 }
 .write_btn{
 	padding-left:530px;

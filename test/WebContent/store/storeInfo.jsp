@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="../main/main.css" /> 				<!-- main css -->
 		<link rel="stylesheet" type="text/css" href="../store/store.css" />
 	</head>
-	<body>
+	<body style="min-width:1260px;">
 		<div>
 			<jsp:include page="../common/title.jsp" /> 			<!-- title -->
 		</div>
@@ -129,97 +129,99 @@
 							<a href=""><img src="./../images/write.png" height="30"></a>
 						</span>
 					</div>
+				</div>
 					
-					<!-- 작성 버튼을 누르면 나타나는 작성 창 -->
-					<%-- 
-					<div class="review_write">
-						<jsp:include page="SmartEditor2.html" />
-					</div>
-					 --%>
-					 
-					<div class="review_board">							<!-- 리뷰 보드 -->
-						
-						<!-- 첫번째 댓글 예시 -->
-						<div class="review">							<!-- DB에서 리뷰 받아와서 뿌려줌 -->
-							<span class="reviewer_profile">
-								<span class="review_content">			<!-- 리뷰어 내용 -->
-									<span class="review_starrate">
-										<img src="./../images/starrate_ex.png" height="25">
-									</span>
-									<span class="updown_position">		<!-- 리뷰 찬반 -->
-										<a href=""><img src="./../images/up.png" height="30"></a>
-											29
-										<a href=""><img src="./../images/down.png" height="30"></a>
-											3
-									</span>
-									<p class="scroll_tag">여기 존맛임 bbb<br/> 개꿀 ㅎㅎ<br/>
-									z<br/>zzz<br/>zzzz<br/>zz<br/>z</p>
-									<span>
-										<span class="review_photo_position">			<!-- 리뷰에 첨부된 사진들 -->
-											<a href=""><img src="./../images/pic1.png" height="40"></a>
-											<a href=""><img src="./../images/pic2.png" height="40"></a>
-											<a href=""><img src="./../images/pic3.png" height="40"></a>
-										</span>
-										
-									</span>
-									<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
-										<span class="btn_position">
-											<a href=""><img src="./../images/update.png" height="30"></a>
-										</span>
-										<%-- 
-										<a href=""><img src="./../images/report.png" height="30"></a>
-										--%>
-									</span>
+				<!-- 작성 버튼을 누르면 나타나는 작성 창 -->
+				<%-- 
+				<div class="review_write">
+					<jsp:include page="SmartEditor2.html" />
+				</div>
+				 --%>
+				 
+				<div class="review_board">							<!-- 리뷰 보드 -->
+					
+					<!-- 첫번째 댓글 예시 -->
+					<div class="review">							<!-- DB에서 리뷰 받아와서 뿌려줌 -->
+						<span class="reviewer_profile">
+							<span class="review_content">			<!-- 리뷰어 내용 -->
+								<span class="review_starrate">
+									<img src="./../images/starrate_ex.png" height="25">
 								</span>
-								<span class="profile">			<!-- 리뷰어 프로필사진 -->
-									<img src="./../images/profile.png" height="100">
+								<span class="updown_position" style="min-width:106px;">		<!-- 리뷰 찬반 -->
+									<a href=""><img src="./../images/up.png" height="30"></a>
+										29
+									<a href=""><img src="./../images/down.png" height="30"></a>
+										3
 								</span>
-								<span class="reviewer_NICK">	<!-- 리뷰어 닉네임 -->
-									예쁜나영이
+								<p class="scroll_tag">여기 존맛임 bbb<br/> 개꿀 ㅎㅎ<br/>
+								z<br/>zzz<br/>zzzz<br/>zz<br/>z</p>
+								<span>
+									<span class="review_photo_position">			<!-- 리뷰에 첨부된 사진들 -->
+										<a href=""><img src="./../images/pic1.png" height="40"></a>
+										<a href=""><img src="./../images/pic2.png" height="40"></a>
+										<a href=""><img src="./../images/pic3.png" height="40"></a>
+									</span>
+									
+								</span>
+								<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
+									<span class="btn_position">
+										<a href=""><img src="./../images/update.png" height="30"></a>
+									</span>
+									<%-- 
+									<a href=""><img src="./../images/report.png" height="30"></a>
+									--%>
 								</span>
 							</span>
-						</div>
-						
-						<!-- 두번째 댓글 예시 -->
-						<div class="review">					<!-- DB에서 리뷰 받아와서 뿌려줌 -->
-							<span class="reviewer_profile">
-								<span class="review_content">	<!-- 리뷰어 내용 -->
-									<span class="review_starrate">
-										<img src="./../images/starrate_ex.png" height="25">
-									</span>
-									<span class="updown_position">		<!-- 리뷰 찬반 -->
-										<a href=""><img src="./../images/up.png" height="30"></a>
-											5
-										<a href=""><img src="./../images/down.png" height="30"></a>
-											5
-									</span>
-									<p class="scroll_tag">여기 안존맛인데 뭔솔;;</p>
-									<span>
-										<span class="review_photo_position">			<!-- 리뷰에 첨부된 사진들 -->
-											<a href=""><img src="./../images/pic1.png" height="40"></a>
-											<a href=""><img src="./../images/pic2.png" height="40"></a>
-											<a href=""><img src="./../images/pic3.png" height="40"></a>
-										</span>
-									</span>
-									<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
-										<span class="btn_position">
-										<!-- 
-											<a href=""><img src="./../images/update.png" height="30"></a>
-										 -->	
-											<a href=""><img src="./../images/report.png" height="30"></a>
-										</span>
-									</span>
-								</span>
-								<span class="profile">			<!-- 리뷰어 프로필사진 -->
-									<img src="./../images/profile.png" height="100">
-								</span>
-								<span class="reviewer_NICK">	<!-- 리뷰어 닉네임 -->
-									예쁜나영이
-								</span>
+							<span class="profile">			<!-- 리뷰어 프로필사진 -->
+								<img src="./../images/profile.png" height="100">
 							</span>
-						</div>
+							<span class="reviewer_NICK">	<!-- 리뷰어 닉네임 -->
+								예쁜나영이
+							</span>
+						</span>
 					</div>
 					
+					<!-- 두번째 댓글 예시 -->
+					<div class="review">							<!-- DB에서 리뷰 받아와서 뿌려줌 -->
+						<span class="reviewer_profile">
+							<span class="review_content">			<!-- 리뷰어 내용 -->
+								<span class="review_starrate">
+									<img src="./../images/starrate_ex.png" height="25">
+								</span>
+								<span class="updown_position" style="min-width:106px;">		<!-- 리뷰 찬반 -->
+									<a href=""><img src="./../images/up.png" height="30"></a>
+										5
+									<a href=""><img src="./../images/down.png" height="30"></a>
+										5
+								</span>
+								<p class="scroll_tag">별로 안존맛인데 뭔솔;;</p>
+								<span>
+									<span class="review_photo_position" style="min-width:150px;">			<!-- 리뷰에 첨부된 사진들 -->
+										<a href=""><img src="./../images/pic1.png" height="40"></a>
+										<a href=""><img src="./../images/pic2.png" height="40"></a>
+										<a href=""><img src="./../images/pic3.png" height="40"></a>
+										<a href=""><img src="./../images/pic4.png" height="40"></a>
+										<a href=""><img src="./../images/pic1.png" height="40"></a>
+									</span>
+									
+								</span>
+								<span class="content_btn">	<!-- 본인 댓글이면 수정, 타인 댓글이면 신고 -->
+									<span class="btn_position">
+										<a href=""><img src="./../images/update.png" height="30"></a>
+									</span>
+									<%-- 
+									<a href=""><img src="./../images/report.png" height="30"></a>
+									--%>
+								</span>
+							</span>
+							<span class="profile">			<!-- 리뷰어 프로필사진 -->
+								<img src="./../images/profile.png" height="100">
+							</span>
+							<span class="reviewer_NICK">	<!-- 리뷰어 닉네임 -->
+								두번째나영이
+							</span>
+						</span>
+					</div>
 					
 					<div class="review_more">					<!-- 더 많은 리뷰 보는 버튼-->
 						<a href=""><img src="./../images/review_more.png" height="25"></a>

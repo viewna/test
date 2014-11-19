@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="elastislide.css" />
 		<script src="../modernizr.custom.17475.js"></script>
 	</head>
-	<body>
+	<body style="min-width:1000px;">
 		<div>
 			<jsp:include page="../common/title.jsp"/>		<!-- title -->
 		</div>

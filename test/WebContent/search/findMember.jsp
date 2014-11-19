@@ -71,7 +71,7 @@
 			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
 		<div>
-			<jsp:include page="../main/searchBar.jsp"/>					<!-- searchBar -->
+			<jsp:include page="../main/searchBar.jsp"/>			<!-- searchBar -->
 		</div>
 		
 		<script type="text/javascript" src="../jQueryWeb.js"></script> 
@@ -86,7 +86,6 @@
 					</span>
 				</div>
 				
-				<div id="resultCount" class="resultCount"></div>
 				<div id="result" class="result_box"></div>
 				<!-- 
 				<div class="result_box">						result store
@@ -100,13 +99,6 @@
 					</div>
 				</div>
 				 -->
-				 
-				<div class="store_more">					<!-- 더 많은 리뷰 보는 버튼-->
-					<a href=""><img src="./../images/review_more.png" height="25"></a>
-				</div>
-				<div class="request_Btn">
-					<a href=""><img src="./../images/request.png" height="20"></a>
-				</div>
 			</div>
 		</div>
 		

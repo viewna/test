@@ -19,7 +19,7 @@ A:hover{text-decoration:none;}
 	
 }
 .title_center{
-	margin:0px 0px 0px 500px;
+	margin:0px 0px 0px 43%;
 }
 .title_btn1{				/*카테고리버튼*/
 	margin:5px 15px 0px 0%;
@@ -34,7 +34,7 @@ A:hover{text-decoration:none;}
 } 
 .title_right{
 	color:white;
-	margin-left:30%;
+	margin-left:23%;
 	padding-bottom:15px;
 	font-size:22px;
 	font-family:맑은 고딕;

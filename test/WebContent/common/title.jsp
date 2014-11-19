@@ -74,6 +74,11 @@
 				<a href="" onclick="" style="padding-right:8px;">
 					<img src="./../images/login.png" height="18">
 				</a>
+				<!-- 
+				<a href="" onclick="" style="padding-right:8px;">
+					<img src="./../images/logout.png" height="18">
+				</a>
+				 -->
 				<a href="" onclick="">
 					<img src="./../images/moning.png" height="18">
 				</a>
