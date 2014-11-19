@@ -82,8 +82,10 @@
 			</div>
 		</div>
 		
-		<div>
-			<jsp:include page="../common/footer.jsp"/>		<!-- footer -->
+		<div class="main_footer">					<!-- footer -->
+			<div class="letter">
+				CRAFTED IN THE MONING PROJECT<br />copyright. 2014 Yodde
+			</div>
 		</div>
 	</body>
 </html>

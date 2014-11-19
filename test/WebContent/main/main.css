@@ -52,6 +52,7 @@ A:hover{}
 	
 	font-family:맑은 고딕;
 	font-size:15px;
+	
 }
 .store_box_title{
 	z-index:100;
@@ -110,6 +111,52 @@ A:hover{}
 	width:74%;
 }
 .HP_box{
-	padding-top:50px;
-	height:520px;
+	margin: 0px 0px 20px 14%;
+	padding-top: 30px;
+	font-family: 맑은 고딕;
+	font-size: 15px;
 }
+.HP_title{
+	text-align:center;
+	height:110px;
+}
+.HP_thumbnails{
+	width:950px;	height:600px;
+	background-color:#DCDCDF;
+	padding:0px 0px 0px 0px;
+}
+.HP_stores{
+	width: 300px; 	height: 500px;
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+}
+.HP_store_name{
+	font-size:25px;
+	font-weight:bold;
+	font-family:맑은 고딕;
+}
+.HP_store_address{
+	float:right;
+	font-size:16px;
+}
+.HP_store_starrate{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

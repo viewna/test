@@ -24,7 +24,24 @@
 		<div class="content">									<!-- content -->
 			<div class="HP_content">
 				<div class="HP_box">
-					
+					<div class="HP_title">
+						핫플 타이틀
+					</div>
+					<div class="HP_thumbnails">
+						<span class="HP_stores">				<!-- hotplace 추천 11111111 -->
+							<span class="HP_store_name" style="text-align:center;">
+								7Train
+							</span>
+							<a href="#"><img src="./../images/ex1.jpg" width="300px;"/></a>
+							<span class="HP_store_address">
+								<span>서울 강남구 역삼동</span>		<!-- 주소값 -->
+							</span>
+							<span class="HP_store_starrate">	<!-- 평점값 -->
+								d
+							</span>
+						</span>
+						
+					</div>
 				</div>
 			</div>
 		</div>

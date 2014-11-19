@@ -28,8 +28,8 @@ p{
 	padding-top:50px;
 }
 .memberJoin_box{
-	width:600px; height:60%;
-	margin:9% 0px 0px 25%;
+	width:600px; height:70%;
+	margin:6% 0px 0px 25%;
 	padding:0px 0px 0px 0px;
 	background-color:#F4F4F4;
 }
@@ -44,6 +44,19 @@ p{
 	font-size:18px;
 	font-family:맑은 고딕;
 	font-weight:bold;
+}
+.join_input_half{
+	width:55px; height:25px;
+	margin:0px 0px 0px 0px;
+
+	border:none;
+	border-bottom:2px solid #F38983;
+	background-color:#F4F4F4;
+
+	font-size:18px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-align:center;
 }
 .bottom_Btn{
 	text-align:center;

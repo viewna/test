@@ -26,11 +26,9 @@ A:hover{text-decoration:none;}
 .firstline_name, .secondline_name{
 	margin-bottom:20px;
 }
-.result_title{
+/* .result_title{
 	margin-bottom:30px;
-	text-align:center;
-	
-}
+} */
 .input{
 
 }
