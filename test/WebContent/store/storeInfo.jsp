@@ -42,7 +42,9 @@
 					<ul class="storeInfo_ul">
 						<li class="storeInfo_box">
 							<div class="starrate">				<!-- 별점표시 -->
-								<img src="./../images/rate_title.png" height="50">
+								<span class="rate_title">
+									<img src="./../images/rate_title.png" height="50">
+								</span>
 								<img src="./../images/starrate_ex.png" height="50" style="margin-left:30px;">
 							</div>
 							<div class="txt">					<!-- 스토어 정보 -->
@@ -58,14 +60,22 @@
 								연락처 : 02-553-7850<br/>
 							</div>
 							<div style="position:absolute;">
+								<div class="request_btn">
+									<a href=""><img src="./../images/update_reqpuest.png" height="20"></a>
+								</div>
 								<div class="map">					<!-- 스토어 위치 -->
 									MAP
+								</div>
+								<div class="follow_btn">			<!-- 팔로우 한 스토어와 안 한 스토어를 구별 -->
+								<!-- 
+									<a href=""><img src="./../images/follow.png" height="35"></a>
+								 -->	
+									<a href=""><img src="./../images/notfollow.png" height="35"></a>
 								</div>
 							</div>
 						</li>
 						
-						<li class="store_pic"><img src="./../images/ex1.jpg"
-							height="300"></li>
+						<li class="store_pic"><img src="./../images/ex1.jpg" height="300"></li>
 	
 						<li class="store_icon">					<!-- 스토어 info -->
 							<img src="./../images_store_info/card.png" width="55" style="margin-right:10px;">
@@ -79,8 +89,10 @@
 				</div>
 	
 				<div class="img_collection">					<!-- 모아보기 -->
-					<div style="text-align:left; background-color:white;">
-						<img src="./../images/review_pic.png" height="50">
+					<div class="review_title">
+						<div style="background-color:white;">
+							<img src="./../images/review_pic.png" height="50">
+						</div>
 					</div>
 					<div class="reviewImg_box">					<!-- 최근 리뷰의 사진 순으로 7개만 모아서 보여줌 -->
 						<span class="review_img">
@@ -108,19 +120,22 @@
 				</div>
 				
 				<div class="write_box"> 						<!-- 리뷰쓰기 창 -->
-					<div style="text-align:left; background-color:white;">
-						<img src="./../images/review_title.png" height="50">
-					</div>
-					
-					<div class="write_btn" style="text-align:right;">
-						<a href=""><img src="./../images/write.png" height="30"></a>
+					<div class="review_title">
+						<span style="text-align:left; background-color:white;">
+							<img src="./../images/review_title.png" height="50">
+						</span>
+						
+						<span class="write_btn">
+							<a href=""><img src="./../images/write.png" height="30"></a>
+						</span>
 					</div>
 					
 					<!-- 작성 버튼을 누르면 나타나는 작성 창 -->
+					<%-- 
 					<div class="review_write">
 						<jsp:include page="SmartEditor2.html" />
 					</div>
-					 
+					 --%>
 					 
 					<div class="review_board">							<!-- 리뷰 보드 -->
 						
@@ -203,6 +218,11 @@
 								</span>
 							</span>
 						</div>
+					</div>
+					
+					
+					<div class="review_more">					<!-- 더 많은 리뷰 보는 버튼-->
+						<a href=""><img src="./../images/review_more.png" height="25"></a>
 					</div>
 				</div>
 			</div>
