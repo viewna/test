@@ -61,5 +61,11 @@ A:hover{text-decoration:none;}
 .follower_nickname{
 	text-align:center;
 	font-family:맑은 고딕;
-	font-size:14px;
+	font-size:15px;
+	margin-bottom:3px;
+	font-weight: bold;
+}
+.more{
+	margin: 0px 0px 0px 320px;
+	padding-bottom: 30px;
 }

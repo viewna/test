@@ -19,109 +19,121 @@
 			<div class="followerList_content">
 				<div class="followerList_box">
 					<div class="result_title">					<!-- login title -->
-						<img src="./../images/follower.png" height="55">
+						<img src="./../images/storefollowing.png" height="55">
 					</div>
+					
 					<ul class="content_box">
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">					<!-- 스토어의 사진과 가게이름 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
-						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
+						<li class="myProfile">
 							<div class="myPhoto" style="padding-top:20px">
-								<img src="./../images/profile.png" width="130px">
+								<img src="./../images/ex1.jpg" width="130px">
 							</div>
 							<div class="follower_nickname">
-								예쁜나영이
+								7Train
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						
-						
-					</ul>	
+					</ul>
 					
 					<div class="more">							<!-- 더보기 버튼 -->
 						<a href=""><img src="./../images/review_more.png" height="25"></a>

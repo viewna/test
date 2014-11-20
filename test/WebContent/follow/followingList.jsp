@@ -19,8 +19,9 @@
 			<div class="followerList_content">
 				<div class="followerList_box">
 					<div class="result_title">					<!-- login title -->
-						<img src="./../images/follower.png" height="55">
+						<img src="./../images/following.png" height="55">
 					</div>
+					
 					<ul class="content_box">
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -29,6 +30,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
@@ -38,6 +40,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -46,6 +49,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -54,6 +58,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -62,6 +67,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -70,6 +76,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -78,6 +85,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -86,6 +94,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -94,6 +103,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -102,6 +112,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -110,6 +121,7 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 12개. -->
 							<div class="myPhoto" style="padding-top:20px">
@@ -118,10 +130,10 @@
 							<div class="follower_nickname">
 								예쁜나영이
 							</div>
+							<img src="./../images/fcancel.png" height="20">
 						</li>
 						
-						
-					</ul>	
+					</ul>
 					
 					<div class="more">							<!-- 더보기 버튼 -->
 						<a href=""><img src="./../images/review_more.png" height="25"></a>
