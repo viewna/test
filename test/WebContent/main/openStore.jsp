@@ -25,17 +25,8 @@
 			<div class="RC_content">
 				<div class="RC_box">
 					<div class="RC_title">
-						<img src="./../images/region.png" height="40px;"/>
-						<!-- R E G I O N -->
-					</div>
-					
-					<div class="RC_map_box">
-						<div class="user_reg">
-							현재 접속 지역 : 원천동
-						</div>
-						<div class="RC_map">
-							MAP
-						</div>
+						<img src="./../images/newstore.png" height="40px;"/>
+						<!-- N E W  S T O R E -->
 					</div>
 					
 					<ul style="none;" class="RC_thumbnails">

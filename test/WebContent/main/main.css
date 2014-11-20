@@ -105,21 +105,21 @@ A:hover{}
 
 
 <!-- hotPlace -->
-.RE_content{
+.HP_content{
 	padding: 130px 10% 30px 15%;
 	height:auto;
 	width:74%;
 }
-.RE_box{
+.HP_box{
 	height: 630px;
 	margin: 0px 0px 20px 12%;
 	padding-top: 40px;
 	font-family: 맑은 고딕;
 	font-size: 15px;
 }
-.RE_title{
+.HP_title{
 	width: 930px; 	height: 50px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	padding : 10px 0px 0px 0px;
 	text-align: center;
 	border:solid 2px #DD5050;
@@ -129,11 +129,11 @@ A:hover{}
 	color: #DD5050;
 	font-weight:bold;
 }
-.RE_thumbnails{
+.HP_thumbnails{
 	width:950px;	height:600px;
 	padding:0px 0px 0px 0px;
 }
-.RE_stores{
+.HP_stores{
 	width: 300px; 	height: 500px;
 	float: left;
 	margin-right: 10px;
@@ -149,16 +149,16 @@ A:hover{}
 	color: white;
 	background-color: #F38983;
 }
-.RE_store_address{
+.HP_store_address{
 	float:center;
 	font-size:14px;
 }
-.RE_store_pic{
+.HP_store_pic{
 	margin: 10px 0px 10px 0px;
 }
-.RE_store_starrate{
+.HP_store_starrate{
 }
-.RE_store_reviewnum{
+.HP_store_reviewnum{
 	margin:10px 10px 5px 0px;
 	float:left;
 }
@@ -172,9 +172,82 @@ A:hover{}
 }
 
 
-
-
-
+<!-- regCenter -->
+.RC_content{
+	padding: 130px 10% 30px 15%;
+	height:auto;
+	width:74%;
+}
+.RC_box{
+	height: 1350px;
+	margin: 0px 0px 20px 12%;
+	padding-top: 40px;
+	font-family: 맑은 고딕;
+	font-size: 15px;
+}
+.RC_title{
+	width:930px; 	height:50px;
+	margin-bottom: 30px;
+	padding : 10px 0px 0px 0px;
+	text-align: center;
+	border:solid 2px #DD5050;
+	
+	font-size:40px;
+	font-family:맑은 고딕;
+	color: #DD5050;
+	font-weight:bold;
+}
+.RC_map_box{
+	width:930px;
+	margin:30px 0px 50px 0px;
+}
+.user_reg{
+	text-align:right;
+	font-family:맑은 고딕;
+	font-size:15px;
+}
+.RC_map{
+	width:930px;	height:300px;
+	background-color:#DCDCDF;
+}
+.RC_thumbnails{
+	width:950px;	height:600px;
+	padding:0px 0px 0px 0px;
+}
+.RC_stores{
+	width: 225px; 	height: 400px;
+	margin: 0px 5px 20px 0px;
+	float: left;
+	text-align: center;
+	border: solid 2px #F38983;
+}
+.RC_store_name{
+	padding-bottom: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 맑은 고딕;
+	color: white;
+	background-color: #F38983;
+}
+.RC_store_address{
+	float:center;
+	font-size:14px;
+}
+.RC_store_pic{
+	margin: 10px 0px 5px 0px;
+}
+.RC_store_starrate{
+}
+.RC_store_reviewnum{
+	margin:10px 10px 5px 0px;
+	float:left;
+}
+.RC_review_num {
+margin-left: 10px;
+font-size: 30px;
+font-weight: bold;
+color: #7C7475;
+}
 
 
 

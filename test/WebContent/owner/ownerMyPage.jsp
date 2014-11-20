@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../common/common.css"/>		<!-- footer, title css -->
 		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
 		<link rel="stylesheet" type="text/css" href="../main/main.css"/>			<!-- main css -->
-		<link rel="stylesheet" type="text/css" href="../member/member.css"/>
+		<link rel="stylesheet" type="text/css" href="../owner/owner.css"/>
 		
 		<script type="text/javascript" src="../jquery-2.1.1.js"></script>
 	</head>
