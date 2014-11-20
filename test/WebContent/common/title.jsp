@@ -20,19 +20,19 @@
 							
 								<span class="menu-menu-1-container">
 									<ul class="category">
-										<li id=""><a href="">Food</a></li>
-										<li id=""><a href="">카페/제과 </a></li>
+										<li id=""><a href="">공공기관</a></li>
+										<li id=""><a href="">교육</a></li>
 										<li id=""><a href="">금융서비스 </a></li>
-										<li id=""><a href="">공공기관 </a></li>
-										<li id=""><a href="">자동차 </a></li>
-										<li id=""><a href="">마트 </a></li>
-										<li id=""><a href="">숙박 </a></li>
-										<li id=""><a href="">영화/공연 </a></li>
-										<li id=""><a href="">병원 </a></li>
-										<li id=""><a href="">오락서비스 </a></li>
-										<li id=""><a href="">생활서비스 </a></li>
-										<li id=""><a href="">렌탈 </a></li>
-										<li id=""><a href="">교육 </a></li>
+										<li id=""><a href="">렌탈</a></li>
+										<li id=""><a href="">마트</a></li>
+										<li id=""><a href="">병원</a></li>
+										<li id=""><a href="">생활서비스</a></li>
+										<li id=""><a href="">숙박</a></li>
+										<li id=""><a href="">영화/공연</a></li>
+										<li id=""><a href="">오락서비스</a></li>
+										<li id=""><a href="">음식</a></li>
+										<li id=""><a href="">자동차</a></li>
+										<li id=""><a href="">카페/제과</a></li>
 									</ul>
 								</span>
 							</span>

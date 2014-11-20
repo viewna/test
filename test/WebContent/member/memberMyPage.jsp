@@ -25,44 +25,44 @@
 		
 		<div class="content">									<!-- content -->
 			<div class="myPage_content">
-				<div class="myPage_box">
+				<div class="myPage_box" style="margin-left:10%; width: 1000px;">
 					<div class="result_title">					<!-- login title -->
 						<img src="./../images/member_mypage.png" height="55">
 					</div>
 					<ul class="content_box">
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 -->
-							<div class="myPhoto">
+							<div class="myPhoto" style="margin-top: 20px;">
 								<img src="./../images/profile.png" width="150px">
 							</div>
 							<div class="myNick">
 								나영이
 							</div>
 						</li>
-						<li>
-							<div class="profile_content">		<!-- user정보 : 순서대로 level, email, 우편번호, 남긴 리뷰갯수  -->
-								<p>
+						<li style="float:left;">
+							<!-- user정보 : 순서대로 level, email, 우편번호, 남긴 리뷰갯수  -->
+							<div class="profile_content" style="width: 300px; padding-left:0px">	
+								<p style="margin-left: 20px;">
 									<img src="./../images/pick.png" height="25"><b class="label">레벨</b>
 									<input type="text" class="profile_input error" value="level" name="level" readonly>
 								</p>
-								<p>
+								<p style="margin-left: 20px;">
 									<img src="./../images/pick.png" height="25"><b class="label" >아이디</b>
 									<input type="text" class="profile_input error" style="width:170px;" value="e-mail" name="e-mail" readonly>
 								</p>
-								<p>
+								<p style="margin-left: 20px;">
 									<img src="./../images/pick.png" height="25"><b class="label">우편번호</b>
 									<input type="text" class="profile_input error" style="width:140px;" value="zipcode" name="zipcode" readonly>
 								</p>
-								<p>
+								<p style="margin-left: 20px;">
 									<img src="./../images/pick.png" height="25"><b class="label">리뷰</b>
 									<input type="text" class="profile_input error" value="리뷰 갯수" readonly><b>개</b>
 								</p>
 							</div>
 						</li>
-					</ul>
-					
-					<ul class="review_box">
-						<li>
-						
+						<li class="review_box">
+							<div>
+								ddd
+							</div>
 						</li>
 					</ul>
 				</div>

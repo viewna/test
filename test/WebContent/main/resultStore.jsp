@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../common/category.css" />		<!-- category css -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>					<!-- main css -->
 	</head>
-	<body>
+	<body style="min-width:1260px;">
 		<div>
 			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
@@ -17,38 +17,38 @@
 			<jsp:include page="searchBar.jsp"/>					<!-- searchBar -->
 		</div>
 		
+		<script type="text/javascript" src="../jQueryWeb.js"></script> 
+		<script type="text/javascript" src="../jQueryWeb2.js"></script>
+		
 		<div class="content">									<!-- content -->
-			<div class="result_content">
-				<div class="result_img">						<!-- result title -->
-					<img src="./../images/about.png" height="55">
-					<span class="result_value">					<!-- 검색해서 넘어온 가게 이름 -->
-						7Train
-					</span>
-				</div>
-			
-				<div class="result_box">						<!-- result store -->
-					<div class="result_stores">
-						<span class="recommend">
-							<a href=""><img src="./../images/ex1.jpg" height="170"></a>
-						</span>
-						<span class="result_stores_title">
-							<img src="./../images/1_HOT.png" height="55">
-						</span>
+			<div class="RS_content">
+				<div class="RS_box">
+					<div class="RS_title">
+						<img src="./../images/ct_1.png" height="40px;"/>
+						<!-- 
+						<img src="./../images/ct_2.png" height="40px;"/>
+						<img src="./../images/ct_3.png" height="40px;"/>
+						<img src="./../images/ct_4.png" height="40px;"/>
+						<img src="./../images/ct_5.png" height="40px;"/>
+						<img src="./../images/ct_6.png" height="40px;"/>
+						<img src="./../images/ct_7.png" height="40px;"/>
+						<img src="./../images/ct_8.png" height="40px;"/>
+						<img src="./../images/ct_9.png" height="40px;"/>
+						<img src="./../images/ct_10.png" height="40px;"/>
+						<img src="./../images/ct_11.png" height="40px;"/>
+						<img src="./../images/ct_12.png" height="40px;"/>
+						<img src="./../images/ct_13.png" height="40px;"/>
+						 -->
 					</div>
-				</div>
-				<div class="result_box">
-					<div class="result_stores">
-						<span class="recommend">
-							<a href=""><img src="./../images/ex1.jpg" height="170"></a>
-						</span>
-						<span class="result_stores_title">
-							<img src="./../images/1_HOT.png" height="55">
-						</span>
+					
+					<%-- 										<!-- findStore 결과폼과 동일 -->
+					<div id="resultCount" class="resultCount"></div>
+					<div id="result" class="result_box"></div>
+					 --%>
+					
+					<div class="RS_Category">
+						<jsp:include page="resultCategory.jsp"/>	
 					</div>
-				</div>
-				
-				<div class="request_Btn">
-					<a href=""><img src="./../images/request.png" height="20"></a>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px 0px 0px 0px;
+	background-color:#F38983;
+}
+A:link{text-decoration:none;}
+A:visited{text-decoration:none;}
+A:hover{text-decoration:none;}
+
+.content{
+	height:auto;	
+}
+.followerList_content{
+	padding-top:50px;
+}
+
+/* followerlist */
+.followerList_box{
+	width: 800px; 	height: auto;
+	margin: 6% 0px 0px 18%;
+	padding: 0px 0px 0px 0px;
+}
+.content_box{
+	height: 240px;
+	padding: 0px 0px 40px 10px;
+	margin-bottom: 30px;
+	background-color: #F4F4F4;
+	display: inline-table;
+}
+.myProfile{
+	width: 150px;
+	margin: 0px 10px 10px 29px;
+	float: left;
+	text-align: center;
+}
+.myPhoto{
+}
+.profile_content{
+	padding: 15px 10px 20px 220px;
+}
+.profile_input{
+	width:80px; height:25px;
+	margin:0px 0px 0px 0px;
+
+	border:none;
+	border-bottom:2px solid #F38983;
+	background-color:#F4F4F4;
+
+	font-size:18px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-align:center;
+	color:#7C7475;
+}
+.label{
+	font-size: 18px;
+	font-family: 맑은 고딕;
+	padding: 0px 10px 0px 10px;
+	color: #7C7475;
+}
+.follower_nickname{
+	text-align:center;
+	font-family:맑은 고딕;
+	font-size:14px;
+}

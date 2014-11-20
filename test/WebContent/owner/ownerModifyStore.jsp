@@ -19,22 +19,29 @@
 		<div>
 			<jsp:include page="../common/title.jsp"/>			<!-- title -->
 		</div>
-
+		
+		<script type="text/javascript" src="../jQueryWeb.js"></script> 
+		<script type="text/javascript" src="../jQueryWeb2.js"></script>
+		
 		<div class="content">									<!-- content -->
 			<div class="myPage_content">
 				<div class="myPage_box">
 					<div class="result_title">					<!-- login title -->
-						<img src="./../images/member_mypage.png" height="55">
+						<img src="./../images/modify.png" height="55">
 					</div>
 					<ul class="content_box">
 						<li class="myProfile">					<!-- user의 프로필사진과 닉네임 받아오는 부분 -->
-							<div class="myPhoto" style="padding-top:20px">
+							<div class="myPhoto">
 								<img src="./../images/profile.png" width="150px">
+							</div>
+							<div style="padding-top: 10px;">	<!-- 프로필 사진 변경 부분 -->
+								<a href="" onclick="">
+									<img src="./../images/modify_submit.png" height="25">
+								</a>
 							</div>
 						</li>
 						<li>
-							<!-- user정보 : 순서대로 level, email, 우편번호, 남긴 리뷰갯수  -->
-							<div class="profile_content" style="padding-top:65px;">		
+							<div class="profile_content">		<!-- user정보 : 순서대로 level, email, 우편번호, 남긴 리뷰갯수  -->
 								<p>
 									<img src="./../images/pick.png" height="25"><b class="label" >아이디</b>
 									<input type="text" class="profile_input error" style="width:170px;" value="e-mail" name="e-mail" readonly>
@@ -43,9 +50,30 @@
 									<img src="./../images/pick.png" height="25"><b class="label">사업자 등록번호</b>
 									<input type="text" class="profile_input error" style="width:140px;" value="zipcode" name="zipcode" readonly>
 								</p>
+								<p>
+									<img src="./../images/pick.png" height="25"><b class="label" >비밀번호</b>
+									<input type="password" class="profile_update error" style="ime-mode: active;" id="password" name="password"
+									placeholder="" onfocus="this.placeholder=''" onblur="this.placeholder=''">
+									<label for="password" generated="true" class="error"> <br/></label>
+								</p>
+								<p>
+									<img src="./../images/pick.png" height="25"><b class="label" >비밀번호 확인</b>
+									<input type="password" class="profile_update error" style="ime-mode: active;" id="pwchk" name="pwchk"
+									placeholder="" onfocus="this.placeholder=''" onblur="this.placeholder=''">
+									<label for="pwchk" generated="true" class="error"> <br/></label>
+								</p>
 							</div>
 						</li>
 					</ul>
+					
+					<div class="bottom_Btn">
+						<a href="" onclick="">
+							<img src="./../images/ok.png" height="30">
+						</a>
+						<a href="" onclick="">
+							<img src="./../images/cancel.png" height="30">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

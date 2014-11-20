@@ -11,6 +11,12 @@ A:hover{text-decoration:none;}
 	padding-top:50px;
 	padding-bottom:30px;
 }
+.modifyStore_box{
+	width: 600px;
+	height: 70%;
+	margin: 6% 0px 0px 25%;
+	padding: 0px 0px 0px 0px;
+}
 .store_info{
 	height: 190px; 	width: 520px;
 	padding: 10px 10px 10px 10px;
@@ -31,6 +37,9 @@ A:hover{text-decoration:none;}
 } */
 .input{
 
+}
+.photo_input{
+	padding-top:30px;
 }
 .file_input{
 	padding: 7px;
@@ -135,7 +144,7 @@ p{
 .content_box{
 	height: 240px;
 	padding-left: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	background-color: #F4F4F4;
 }
 .myProfile{
@@ -146,19 +155,15 @@ p{
 }
 .myPhoto{
 }
-.myNick{
-	font-weight:bold;
-	font-family:맑은 고딕;
-}
 .profile_content{
-	padding: 10px 10px 20px 200px;
+	padding: 15px 10px 20px 220px;
 }
 .profile_input{
 	width:80px; height:25px;
 	margin:0px 0px 0px 0px;
 
 	border:none;
-	border-bottom:2px dotted #F38983;
+	border-bottom:2px solid #F38983;
 	background-color:#F4F4F4;
 
 	font-size:18px;
@@ -176,3 +181,30 @@ p{
 .review_box{
 	
 }
+
+
+.profile_update{
+	width:100px; height:25px;
+	margin:0px 0px 0px 0px;
+
+	border:none;
+	border-bottom:dotted 2px #F38983;
+	background-color:#F4F4F4;
+
+	font-size:18px;
+	font-family:맑은 고딕;
+	font-weight:bold;
+	text-align:center;
+	color:#7C7475;
+}
+
+
+
+
+
+
+
+
+
+
+
